@@ -3,7 +3,6 @@
 Complete set of 18 prompt templates used in the experiments reported in:
 
 > **Critical Question Generation for Arguments: A Large-Scale Analysis of Prompting and Reranking Strategies**  
-> Midhun Kanadan — EMNLP 2026
 
 The taxonomy of prompting strategies is summarised below.
 Full experimental results are reported in the paper.
@@ -532,16 +531,3 @@ Argument:
 ```
 
 ---
-
-## Citation
-
-If you use these prompts, please cite:
-
-```bibtex
-@inproceedings{kanadan:2026,
-  author    = {Midhun Kanadan},
-  title     = {Critical Question Generation for Arguments: A Large-Scale Analysis of Prompting and Reranking Strategies},
-  booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
-  year      = {2026}
-}
-```
