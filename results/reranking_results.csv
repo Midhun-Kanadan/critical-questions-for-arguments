@@ -1,0 +1,21 @@
+reranker,model_combination,prompt,usefulness_score,useful_pct,invalid_pct,nae_pct
+ModernBERT,Gemini 2.5 Pro + Gemma 2 27B,P16,0.824,82.4,4.9,6.9
+ModernBERT,Gemma 2 27B + Mistral 7B,P16,0.814,81.4,5.9,4.9
+ModernBERT,DeepSeek-R1 32B + Gemma 2 27B,P16,0.804,80.4,5.9,2.9
+ModernBERT,DeepSeek-R1 32B + Mistral 7B,P16,0.794,79.4,6.9,5.9
+ModernBERT,Gemini 2.5 Flash + Mistral 7B,P16,0.784,78.4,4.9,8.8
+ModernBERT,Gemini 2.5 Flash + Gemma 2 27B,P16,0.784,78.4,3.9,9.8
+ModernBERT,Gemma 2 27B + GPT-4.1,P16,0.784,78.4,5.9,5.9
+ModernBERT,Gemini 2.5 Pro + Mistral 7B,P16,0.784,78.4,6.9,9.8
+ModernBERT,DeepSeek-R1 32B + Gemini 2.5 Pro,P16,0.784,78.4,3.9,9.8
+ModernBERT,GPT-4o + Phi-4 14B,P01,0.775,77.5,4.9,10.8
+Gemini 2.5 Pro (LLM judge),DeepSeek-R1 32B + Gemma 2 27B,P16,0.725,72.5,7.8,6.9
+Gemini 2.5 Pro (LLM judge),Gemini 2.5 Flash + Gemma 2 27B,P16,0.716,71.6,3.9,3.9
+Gemini 2.5 Pro (LLM judge),Gemma 2 2B + GPT-4o,P01,0.716,71.6,5.9,5.9
+Gemini 2.5 Pro (LLM judge),GPT-4.1 + Mistral 7B,P16,0.706,70.6,2.0,19.6
+Gemini 2.5 Pro (LLM judge),Gemma 2 2B + Qwen 2.5 32B,P01,0.706,70.6,6.9,6.9
+Gemini 2.5 Pro (LLM judge),Mistral 7B + Qwen 2.5 32B,P01,0.706,70.6,8.8,8.8
+Gemini 2.5 Pro (LLM judge),GPT-4o + Qwen 2.5 32B,P01,0.696,69.6,9.8,9.8
+Gemini 2.5 Pro (LLM judge),Gemma 2 27B + Mistral 7B,P16,0.696,69.6,1.0,0.9
+Gemini 2.5 Pro (LLM judge),DeepSeek-R1 32B + GPT-4o,P01,0.696,69.6,7.8,7.8
+Gemini 2.5 Pro (LLM judge),DeepSeek-R1 32B + Gemma 2 27B,P10,0.686,68.6,5.9,5.9

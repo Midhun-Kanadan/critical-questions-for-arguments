@@ -4,17 +4,17 @@ Complete set of 18 prompt templates used in the experiments reported in:
 
 > **Critical Question Generation for Arguments: A Large-Scale Analysis of Prompting and Reranking Strategies**  
 
-The taxonomy of prompting strategies is summarised below.
+The taxonomy of prompting strategies is summarized below.
 Full experimental results are reported in the paper.
 
 | Category | Prompts | Mechanism |
 |---|---|---|
 | Baseline | P1, P14 | Minimal zero-shot task instruction |
 | Constraint-oriented | P11, P13, P15 | Explicit quality constraints and prohibitions against generic questions; P15 adds structured vulnerability guidelines |
-| Persona-based | P2, P16, P17 | Role-based behavioural framing |
+| Persona-based | P2, P16, P17 | Role-based behavioral framing |
 | Scaffolding | P3, P7 | Structured intermediate reasoning steps before generation |
 | Few-shot | P4, P5, P6 | Positive and negative output examples |
-| Hybrid | P8, P9 | Combined reasoning and behavioural guidance |
+| Hybrid | P8, P9 | Combined reasoning and behavioral guidance |
 | Scheme-aware | P10, P12, P18 | Walton-style scheme definitions and template questions injected into the prompt |
 
 The placeholder `{text}` is replaced at inference time with the argumentative intervention.

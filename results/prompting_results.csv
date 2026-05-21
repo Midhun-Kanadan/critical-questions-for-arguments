@@ -1,0 +1,77 @@
+﻿model,configuration,param_type,usefulness_score_avg,usefulness_score_best,nae_pct
+gpt-4.1,API Default,proprietary,0.550,0.647,10.4
+grok-4-0709,API Default,proprietary,0.542,0.598,12.9
+grok-4-fast-reasoning,API Default,proprietary,0.536,0.608,11.9
+gemma2-27b,Greedy (T=0),open-weight,0.530,0.657,10.9
+gemini-2.5-flash,API Default,proprietary,0.522,0.627,16.0
+phi4-14b,Default,open-weight,0.521,0.588,9.8
+qwen2.5-32b,Greedy (T=0),open-weight,0.517,0.647,10.1
+mistral-7b,Greedy (T=0),open-weight,0.513,0.627,7.5
+gpt-4o,API Default,proprietary,0.510,0.588,10.4
+gemma2-9b,Greedy (T=0),open-weight,0.505,0.578,9.6
+claude-sonnet-4.5,API Default,proprietary,0.504,0.559,18.0
+qwen2.5-32b,Default,open-weight,0.503,0.588,10.6
+phi4-14b,Greedy (T=0),open-weight,0.502,0.608,9.6
+mistral-7b,Default,open-weight,0.501,0.569,8.3
+qwen3-14b,Greedy (T=0),open-weight,0.500,0.578,12.5
+qwen3-32b,Greedy (T=0),open-weight,0.499,0.588,12.1
+qwen3-30b,Greedy (T=0),open-weight,0.497,0.608,17.9
+phi4-reasoning-14b,Greedy (T=0),open-weight,0.496,0.578,13.4
+wizardlm2-7b,Default,open-weight,0.492,0.569,9.5
+qwen3-32b,Default,open-weight,0.491,0.549,13.5
+gemma2-27b,Default,open-weight,0.491,0.539,12.0
+qwen3-8b,Default,open-weight,0.490,0.559,14.4
+gemma2-9b,Default,open-weight,0.489,0.559,12.3
+qwen3-30b,Default,open-weight,0.486,0.608,19.1
+qwen3-8b,Greedy (T=0),open-weight,0.485,0.578,14.3
+wizardlm2-7b,Greedy (T=0),open-weight,0.483,0.608,10.0
+deepseek-r1-14b,Default,open-weight,0.480,0.549,15.1
+qwen3-14b,Default,open-weight,0.479,0.549,11.4
+deepseek-r1-14b,Greedy (T=0),open-weight,0.478,0.539,15.7
+qwen2.5-14b,Greedy (T=0),open-weight,0.475,0.578,14.8
+gpt-5,API Default,proprietary,0.474,0.549,19.3
+deepseek-r1-32b,Greedy (T=0),open-weight,0.474,0.549,15.9
+llama3.1-8b,Default,open-weight,0.474,0.539,12.1
+llama3.1-8b,Greedy (T=0),open-weight,0.474,0.588,8.5
+qwen3-4b,Default,open-weight,0.473,0.578,17.7
+gemma2-2b,Greedy (T=0),open-weight,0.472,0.539,14.7
+qwen2.5-14b,Default,open-weight,0.466,0.529,14.3
+llama3.2-3b,Greedy (T=0),open-weight,0.465,0.520,13.6
+deepseek-r1-32b,Default,open-weight,0.464,0.529,17.8
+deepseek-r1-7b,Greedy (T=0),open-weight,0.462,0.529,20.7
+llama3.2-3b,Default,open-weight,0.462,0.529,17.9
+phi4-reasoning-14b,Default,open-weight,0.459,0.569,20.2
+qwen2.5-7b,Greedy (T=0),open-weight,0.454,0.520,16.4
+qwen2.5-7b,Default,open-weight,0.452,0.520,16.6
+gemma3-27b,Greedy (T=0),open-weight,0.446,0.539,20.0
+gemma2-2b,Default,open-weight,0.444,0.510,19.3
+qwen3-4b,Greedy (T=0),open-weight,0.440,0.539,19.0
+gemma3-12b,Default,open-weight,0.439,0.539,21.7
+gemini-2.5-pro,API Default,proprietary,0.437,0.549,28.0
+gemma3-27b,Default,open-weight,0.431,0.520,20.4
+deepseek-r1-7b,Default,open-weight,0.422,0.529,24.0
+gemma3-4b,Greedy (T=0),open-weight,0.418,0.510,21.6
+gemma3-12b,Greedy (T=0),open-weight,0.412,0.529,21.4
+qwen2.5-3b,Greedy (T=0),open-weight,0.410,0.549,16.3
+qwen3-1.7b,Default,open-weight,0.405,0.500,28.0
+gemma3-4b,Default,open-weight,0.405,0.500,21.8
+qwen3-1.7b,Greedy (T=0),open-weight,0.404,0.480,27.1
+deepseek-v2-16b,Greedy (T=0),open-weight,0.404,0.520,19.8
+qwen2.5-1.5b,Greedy (T=0),open-weight,0.401,0.480,22.0
+qwen2.5-3b,Default,open-weight,0.400,0.500,19.0
+qwen2.5-1.5b,Default,open-weight,0.381,0.480,29.1
+deepseek-v2-16b,Default,open-weight,0.360,0.461,22.4
+deepseek-r1-1.5b,Greedy (T=0),open-weight,0.317,0.500,39.7
+deepseek-r1-8b,Default,open-weight,0.312,0.559,22.0
+gemma3-1b,Default,open-weight,0.309,0.441,42.0
+qwen2.5-0.5b,Greedy (T=0),open-weight,0.308,0.500,39.3
+gemma3-1b,Greedy (T=0),open-weight,0.307,0.402,38.1
+qwen3-0.6b,Default,open-weight,0.300,0.471,44.5
+qwen3-0.6b,Greedy (T=0),open-weight,0.289,0.402,45.3
+deepseek-r1-1.5b,Default,open-weight,0.288,0.372,44.7
+qwen2.5-0.5b,Default,open-weight,0.265,0.392,44.8
+llama3.2-1b,Greedy (T=0),open-weight,0.255,0.500,19.5
+llama3.2-1b,Default,open-weight,0.247,0.451,35.1
+gemma3-270m,Greedy (T=0),open-weight,0.150,0.402,69.4
+gemma3-270m,Default,open-weight,0.144,0.343,69.9
+deepseek-r1-8b,Greedy (T=0),open-weight,0.072,0.441,6.2
